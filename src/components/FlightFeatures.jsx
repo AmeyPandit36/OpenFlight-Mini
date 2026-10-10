@@ -45,7 +45,7 @@ export default function FlightFeatures() {
   return (
     <section
       id="flight-features"
-      className="relative isolate overflow-hidden bg-[#030914] text-white scroll-mt-[76px] sm:scroll-mt-[76px] border-b border-white/10"
+      className="relative isolate overflow-hidden bg-[#030914] text-white scroll-mt-[70px] sm:scroll-mt-[74px] border-b border-white/10"
     >
       {/* Desktop cinematic background product layer */}
       <div
@@ -76,9 +76,9 @@ export default function FlightFeatures() {
         className="absolute inset-x-0 bottom-0 h-16 sm:h-20 -z-10 pointer-events-none bg-gradient-to-t from-[#030914] via-[#030914]/85 to-transparent"
       />
 
-      <div className="mx-auto max-w-[1360px] px-5 sm:px-8 lg:px-10 pt-4 sm:pt-6 lg:pt-5 pb-4 sm:pb-5 lg:pb-5">
+      <div className="mx-auto max-w-[1360px] px-5 sm:px-8 lg:px-10 pt-8 sm:pt-10 lg:pt-8 pb-6 sm:pb-8 lg:pb-6">
         {/* 1. Compact heading block at top */}
-        <div className="mb-3 sm:mb-4 lg:mb-4 max-w-xl lg:ml-auto">
+        <div className="mb-4 sm:mb-5 lg:mb-4 max-w-xl lg:ml-auto">
           <p className="mb-1 flex items-center gap-2 font-mono text-[11px] tracking-[0.2em] text-cyan-300 font-semibold">
             <span className="h-1.5 w-1.5 rounded-full bg-cyan-300 shadow-[0_0_8px_#00DDF0] animate-pulse" />
             EXPLORE THE INSTRUMENT
@@ -219,7 +219,7 @@ export default function FlightFeatures() {
         {/* 3. Five-feature selector below the main row */}
         <nav
           aria-label="Flight features"
-          className="mx-auto mt-3.5 sm:mt-4 lg:mt-4 max-w-5xl border-t border-white/10 pt-2.5 sm:pt-3"
+          className="mx-auto mt-4 sm:mt-5 max-w-5xl border-t border-white/10 pt-3"
         >
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5 lg:gap-2.5 xl:gap-3">
             {features.map((feature, index) => {
@@ -271,7 +271,7 @@ export default function FlightFeatures() {
         </nav>
 
         {/* 4. Illustrative-data disclaimer beneath selector */}
-        <p className="mt-2 text-center font-mono text-[9px] sm:text-[10px] text-slate-500 font-medium leading-tight">
+        <p className="mt-2.5 text-center font-mono text-[9px] sm:text-[10px] text-slate-500 font-medium leading-tight">
           Display values are illustrative examples, not live simulator telemetry.
         </p>
       </div>
