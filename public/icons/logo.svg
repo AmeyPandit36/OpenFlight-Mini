@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="color: #00E5F2;">
+  <title>OpenFlight Mini Logo</title>
+  <!-- Outer reticle ring -->
+  <circle cx="12" cy="12" r="9" stroke="#142842" />
+  <!-- Left and right horizon wings -->
+  <path d="M3 12h5" stroke="#00E5F2" />
+  <path d="M16 12h5" stroke="#00E5F2" />
+  <!-- Center boresight chevron -->
+  <path d="M10 12l2 2 2-2" stroke="#F1F6FA" />
+  <!-- Vertical zenith index -->
+  <path d="M12 7v3" stroke="#00E5F2" />
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #00E5F2;">
+  <title>Heading Indicator</title>
+  <!-- Outer compass rose ring -->
+  <circle cx="12" cy="12" r="8.5" />
+
+  <!-- Top lubber line heading index -->
+  <polygon points="12,5.5 10,2 14,2" />
+
+  <!-- Selected heading bug at 45 degrees -->
+  <path d="M16 4.5l2 1.5l2-1.5" />
+
+  <!-- Cardinal and intercardinal calibration ticks -->
+  <line x1="20.5" y1="12" x2="18.5" y2="12" />
+  <line x1="12" y1="20.5" x2="12" y2="18.5" />
+  <line x1="3.5" y1="12" x2="5.5" y2="12" />
+  <line x1="18" y1="18" x2="16.5" y2="16.5" />
+  <line x1="6" y1="18" x2="7.5" y2="16.5" />
+  <line x1="6" y1="6" x2="7.5" y2="7.5" />
+
+  <!-- Miniature center aircraft reference symbol -->
+  <line x1="12" y1="8" x2="12" y2="16" />
+  <line x1="7.5" y1="11.5" x2="16.5" y2="11.5" />
+  <line x1="9.5" y1="15" x2="14.5" y2="15" />
+  <circle cx="12" cy="12" r="1" fill="currentColor" />
+</svg>

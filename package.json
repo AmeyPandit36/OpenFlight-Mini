@@ -1,0 +1,24 @@
+{
+  "name": "openflight-mini",
+  "version": "1.0.0",
+  "description": "Premium aviation product website for OpenFlight Mini physical telemetry display",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "lucide-react": "^1.55.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}
